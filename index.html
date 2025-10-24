@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FREE iPhone 17 Pro Max! 🎁 Limited Giveaway - Shipping Included</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #ff3b30;
+      --dark: #1d1d1f;
+      --light: #ffffff;
+      --success: #34c759;
+      --text: #1d1d1f;
+      --gray: #f5f5f7;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--light);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* Header */
+    header {
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      padding: 8px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .cta-button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 6px 16px;
+      border-radius: 24px;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 6px rgba(255, 59, 48, 0.25);
+    }
+
+    .cta-button:hover {
+      background: #e52d21;
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 50px 0 30px;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: #fff2f2;
+      color: var(--primary);
+      padding: 4px 10px;
+      border-radius: 14px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      border: 1px solid #ffd5d5;
+      font-size: 12px;
+    }
+
+    .hero-title {
+      font-size: 30px;
+      font-weight: 800;
+      margin: 6px 0 14px;
+      color: var(--dark);
+    }
+
+    .hero-subtitle {
+      font-size: 15px;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto 18px;
+    }
+
+    .iphone-image {
+      max-width: 600px; /* 👈 BIGGER IMAGE */
+      width: 100%;
+      margin: 20px auto;
+      border-radius: 20px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+      animation: float 5s ease-in-out infinite;
+      transition: all 0.4s ease;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-14px); }
+      100% { transform: translateY(0px); }
+    }
+
+    /* Live User */
+    .live-section {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 12px;
+      padding: 12px;
+      margin: 18px auto;
+      max-width: 520px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(52, 199, 89, 0.2); }
+      70% { box-shadow: 0 0 0 10px rgba(52, 199, 89, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(52, 199, 89, 0); }
+    }
+
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--success);
+      border-radius: 50%;
+      box-shadow: 0 0 4px var(--success);
+    }
+
+    .live-text {
+      font-weight: 700;
+      color: #065f46;
+      font-size: 11px;
+    }
+
+    .user-info {
+      font-size: 13px;
+      line-height: 1.4;
+      font-weight: 600;
+    }
+
+    /* Specs Section */
+    .specs-section {
+      padding: 30px 0;
+      background: var(--gray);
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+    }
+
+    .specs-title {
+      text-align: center;
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      color: var(--dark);
+    }
+
+    .specs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .spec-item {
+      background: white;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .spec-icon {
+      font-size: 18px;
+      color: var(--primary);
+    }
+
+    .spec-text {
+      font-weight: 500;
+    }
+
+    /* Storage & Color Selector */
+    .selector-section {
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .selector-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--dark);
+    }
+
+    .storage-options, .color-options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .option-btn {
+      padding: 6px 14px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .option-btn:hover {
+      border-color: var(--primary);
+      background: #fff2f2;
+    }
+
+    .option-btn.selected {
+      border-color: var(--primary);
+      background: var(--primary);
+      color: white;
+    }
+
+    /* Timer */
+    .timer-section {
+      background: linear-gradient(135deg, #fff5f5, #ffecec);
+      padding: 16px 0;
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    .timer-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .timer-display {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: 1px;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .cta-title {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--dark);
+      margin-bottom: 14px;
+    }
+
+    .cta-subtitle {
+      font-size: 15px;
+      color: #555;
+      max-width: 580px;
+      margin: 0 auto 22px;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 16px 0;
+      color: #777;
+      font-size: 11px;
+      border-top: 1px solid #eee;
+    }
+
+    /* Mobile Adjustments */
+    @media (max-width: 768px) {
+      .iphone-image { max-width: 340px; } /* Larger on mobile too */
+      .specs-grid { grid-template-columns: repeat(3, 1fr); }
+      .spec-item { padding: 10px; font-size: 12px; }
+      .spec-icon { font-size: 16px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero-title { font-size: 24px; }
+      .iphone-image { max-width: 300px; }
+      .hero { padding: 40px 0 24px; }
+      .selector-title { font-size: 20px; }
+      .specs-grid { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+
+      .storage-options, .color-options {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+      }
+
+      .storage-options .option-btn,
+      .color-options .option-btn {
+        flex: 1 1 calc(25% - 8px);
+        min-width: auto;
+        padding: 6px 4px;
+        font-size: 11px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">iPhone 17 Pro Max</div>
+        <button class="cta-button">Claim FREE</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">🔥 ONLY 24 HOURS LEFT!</div>
+      <h1 class="hero-title">Win a FREE iPhone 17 Pro Max!</h1>
+      <p class="hero-subtitle">Get the brand-new iPhone 17 Pro Max — 100% FREE with FREE shipping! No hidden fees. Limited stock available.</p>
+      
+      <!-- iPhone Image - NOW LARGER -->
+      <img 
+        id="phone-image"
+        src="https://i.postimg.cc/pyMXYg1L/i-Phone-17-Pro-Max-Price-in-Pakistan-removebg-preview.png" 
+        alt="iPhone 17 Pro Max" 
+        class="iphone-image"
+      />
+
+      <!-- Live User Claim -->
+      <div class="live-section">
+        <div class="live-dot"></div>
+        <div>
+          <div class="live-text">LIVE CLAIM</div>
+          <div class="user-info" id="live-user">Jessica M. from Chicago just claimed her iPhone 17 Pro Max!</div>
+        </div>
+      </div>
+
+      <!-- Timer -->
+      <div class="timer-section">
+        <div class="timer-title">⏰ HURRY! OFFER ENDS IN:</div>
+        <div class="timer-display" id="countdown">24:00:00</div>
+      </div>
+
+      <button class="cta-button" id="claim-button">YES! I WANT MY FREE IPHONE 17 PRO MAX</button>
+    </div>
+  </section>
+
+  <!-- Specs Section -->
+  <section class="specs-section">
+    <div class="container">
+      <h2 class="specs-title">iPhone 17 Pro Max — Next-Gen Power</h2>
+      <div class="specs-grid">
+        <div class="spec-item"><i class="fas fa-mobile-alt spec-icon"></i><div class="spec-text">6.9" OLED display</div></div>
+        <div class="spec-item"><i class="fas fa-hand-pointer spec-icon"></i><div class="spec-text">120Hz refresh rate</div></div>
+        <div class="spec-item"><i class="far fa-square spec-icon"></i><div class="spec-text">Dynamic Island</div></div>
+        <div class="spec-item"><i class="fas fa-bolt spec-icon"></i><div class="spec-text">Scratch-resistant display</div></div>
+        <div class="spec-item"><i class="fas fa-hammer spec-icon"></i><div class="spec-text">Titanium design</div></div>
+        <div class="spec-item"><i class="fas fa-microchip spec-icon"></i><div class="spec-text">A19 Pro chip</div></div>
+        <div class="spec-item"><i class="fas fa-memory spec-icon"></i><div class="spec-text">12GB RAM</div></div>
+        <div class="spec-item"><i class="fas fa-camera spec-icon"></i><div class="spec-text">Triple 48MP cameras</div></div>
+        <div class="spec-item"><i class="fas fa-video spec-icon"></i><div class="spec-text">24MP front camera</div></div>
+        <div class="spec-item"><i class="fas fa-battery-half spec-icon"></i><div class="spec-text">Easier battery removal</div></div>
+        <div class="spec-item"><i class="far fa-calendar-alt spec-icon"></i><div class="spec-text">Sept 2025 Release</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Storage & Color Selector -->
+  <section class="selector-section">
+    <div class="container">
+      <h2 class="selector-title">Choose Your iPhone 17 Pro Max</h2>
+      <div class="storage-options">
+        <div class="option-btn" data-storage="256GB">256GB</div>
+        <div class="option-btn" data-storage="512GB">512GB</div>
+        <div class="option-btn" data-storage="1TB">1TB</div>
+        <div class="option-btn" data-storage="2TB">2TB</div>
+      </div>
+      <div class="color-options">
+        <div class="option-btn" data-color="space-black" style="background: #1a1a1a; color: white;">Space Black</div>
+        <div class="option-btn" data-color="silver" style="background: #d1d1d6; color: #333;">Silver</div>
+        <div class="option-btn" data-color="gold" style="background: #ffc107; color: #333;">Gold</div>
+        <div class="option-btn" data-color="deep-purple" style="background: #8e44ad; color: white;">Deep Purple</div>
+        <div class="option-btn" data-color="forest-green" style="background: #27ae60; color: white;">Forest Green</div>
+      </div>
+      <p style="margin-top: 10px; font-size: 13px; color: #777;">Select storage & color to customize your free iPhone!</p>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="cta-title">Don’t Miss Out — Claim Yours NOW!</h2>
+      <p class="cta-subtitle">
+        Join over 12,000+ U.S. users who’ve already claimed their FREE iPhone 17 Pro Max. Supplies are extremely limited!
+      </p>
+      <button class="cta-button" id="final-cta">👉 YES! I WANT MY FREE IPHONE 17 PRO MAX</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 iPhone 17 Pro Max Giveaway. Not affiliated with Apple Inc.</p>
+      <p>100% FREE with free shipping. While supplies last.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Storage & Color Selection
+    let selectedStorage = '256GB';
+    let selectedColor = 'space-black';
+
+    document.querySelectorAll('.storage-options .option-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.storage-options .option-btn').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        selectedStorage = btn.getAttribute('data-storage');
+      });
+    });
+
+    document.querySelectorAll('.color-options .option-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.color-options .option-btn').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        selectedColor = btn.getAttribute('data-color');
+      });
+    });
+
+    // Live User Claims (50+ U.S. users)
+    const usClaims = [
+      "Michael T. from New York just claimed his iPhone 17 Pro Max!",
+      "Sarah L. from Los Angeles claimed the iPhone 17 Pro Max!",
+      "David R. from Miami got his FREE iPhone 17 Pro Max!",
+      "Emma J. from Seattle just secured her iPhone 17 Pro Max!",
+      "James K. from Austin claimed his iPhone 17 Pro Max!",
+      "Olivia P. from Denver just claimed her iPhone 17 Pro Max!",
+      "Ryan M. from Boston got his iPhone 17 Pro Max for FREE!",
+      "Linda H. from Atlanta just claimed iPhone 17 Pro Max!",
+      "Carlos R. from San Diego got his iPhone 17 Pro Max FREE!",
+      "Nina W. from Portland claimed her iPhone 17 Pro Max!",
+      "Tyler B. from Dallas claimed his iPhone 17 Pro Max!",
+      "Ava S. from Phoenix got her iPhone 17 Pro Max FREE!",
+      "Noah G. from Philadelphia just claimed iPhone 17 Pro Max!",
+      "Isabella C. from San Antonio secured her iPhone 17 Pro Max!",
+      "Lucas M. from San Jose claimed his iPhone 17 Pro Max!",
+      "Mia D. from Jacksonville got her iPhone 17 Pro Max!",
+      "Ethan F. from Indianapolis claimed his iPhone 17 Pro Max!",
+      "Harper L. from San Francisco just got her iPhone 17 Pro Max!",
+      "Logan N. from Columbus claimed his iPhone 17 Pro Max!",
+      "Amelia O. from Charlotte got her iPhone 17 Pro Max FREE!",
+      "Jackson P. from Fort Worth claimed his iPhone 17 Pro Max!",
+      "Evelyn Q. from Detroit got her iPhone 17 Pro Max!",
+      "Carter R. from El Paso claimed his iPhone 17 Pro Max!",
+      "Chloe S. from Memphis just secured her iPhone 17 Pro Max!",
+      "Grayson T. from Boston claimed his iPhone 17 Pro Max!",
+      "Lily U. from Seattle got her iPhone 17 Pro Max FREE!",
+      "Wyatt V. from Denver claimed his iPhone 17 Pro Max!",
+      "Zoe W. from Washington DC got her iPhone 17 Pro Max!",
+      "Mason X. from Nashville claimed his iPhone 17 Pro Max!",
+      "Penelope Y. from Baltimore got her iPhone 17 Pro Max!",
+      "Liam Z. from Oklahoma City claimed his iPhone 17 Pro Max!",
+      "Scarlett A. from Louisville got her iPhone 17 Pro Max FREE!",
+      "Oliver B. from Milwaukee claimed his iPhone 17 Pro Max!",
+      "Aria C. from Portland got her iPhone 17 Pro Max!",
+      "Elijah D. from Las Vegas claimed his iPhone 17 Pro Max!",
+      "Riley E. from Cincinnati got her iPhone 17 Pro Max!",
+      "Lucas F. from Kansas City claimed his iPhone 17 Pro Max!",
+      "Aurora G. from Raleigh got her iPhone 17 Pro Max FREE!",
+      "Jack H. from New Orleans claimed his iPhone 17 Pro Max!",
+      "Hazel I. from Long Beach got her iPhone 17 Pro Max!",
+      "Daniel J. from Mesa claimed his iPhone 17 Pro Max!",
+      "Violet K. from Atlanta got her iPhone 17 Pro Max!",
+      "Henry L. from Colorado Springs claimed his iPhone 17 Pro Max!",
+      "Stella M. from Virginia Beach got her iPhone 17 Pro Max!",
+      "Owen N. from Omaha claimed his iPhone 17 Pro Max!",
+      "Isla O. from Tulsa got her iPhone 17 Pro Max FREE!",
+      "Sebastian P. from Oakland claimed his iPhone 17 Pro Max!",
+      "Leah Q. from Minneapolis got her iPhone 17 Pro Max!",
+      "Caleb R. from Arlington claimed his iPhone 17 Pro Max!",
+      "Maya S. from Tucson got her iPhone 17 Pro Max!",
+      "Mateo T. from Bakersfield claimed his iPhone 17 Pro Max!",
+      "Addison U. from Anaheim got her iPhone 17 Pro Max!",
+      "Leo V. from Honolulu claimed his iPhone 17 Pro Max!",
+      "Luna W. from Birmingham got her iPhone 17 Pro Max FREE!"
+    ];
+
+    const liveUserEl = document.getElementById('live-user');
+    function updateLiveClaim() {
+      const randomClaim = usClaims[Math.floor(Math.random() * usClaims.length)];
+      liveUserEl.innerHTML = randomClaim;
+    }
+    updateLiveClaim();
+    setInterval(updateLiveClaim, 3000);
+
+    // ✅ SMART TIMER: Persists across visits, resets only after 24h expiry
+    function startPersistentCountdown() {
+      const timerDisplay = document.getElementById('countdown');
+      const EXPIRY_KEY = 'iphone_giveaway_expiry_24h';
+
+      let expiryTime = localStorage.getItem(EXPIRY_KEY);
+
+      const now = Date.now();
+      const twentyFourHours = 24 * 60 * 60 * 1000; // 24 hours in ms
+
+      // If no expiry set OR 24h already passed → start new timer
+      if (!expiryTime || now >= parseInt(expiryTime)) {
+        expiryTime = now + twentyFourHours;
+        localStorage.setItem(EXPIRY_KEY, expiryTime);
+      }
+
+      // Countdown logic
+      const updateTimer = () => {
+        const currentTime = Date.now();
+        const timeLeft = parseInt(expiryTime) - currentTime;
+
+        if (timeLeft <= 0) {
+          timerDisplay.textContent = "OFFER EXPIRED";
+          timerDisplay.style.color = "#e74c3c";
+          // Optional: auto-reset on next visit (already handled on reload)
+          return;
+        }
+
+        const hours = Math.floor(timeLeft / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        timerDisplay.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      };
+
+      updateTimer();
+      setInterval(updateTimer, 1000);
+    }
+
+    startPersistentCountdown();
+
+    // Redirect ALL CTA buttons to CPA link (clean URL)
+    document.querySelectorAll('.cta-button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        window.location.href = "https://appverification.live/cl/i/ex66qx";
+      });
+    });
+  </script>
+</body>
+</html>
